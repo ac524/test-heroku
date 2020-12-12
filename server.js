@@ -2,6 +2,8 @@ const express = require('express')
 const app = express();
 
 var PORT = process.env.PORT || 3001;
+
+const test = nonExistingVariable;
  
 app.get('/', function (req, res) {
   res.send('Hello World');
